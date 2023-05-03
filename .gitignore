@@ -1,0 +1,23 @@
+# remove some sytem forlders and files
+.vscode/
+.documents/
+*.vscode
+*.ipynb_checkpoints
+.DS_Store
+*/.DS_Store
+.DS_Store?
+__pycache__/
+**/__pycache__
+__init__.py/
+test.py
+
+# ignore data folder 
+data/ 
+notes/
+fits/
+figures/
+simulations/
+analyses/
+backup/
+answer.ipynb
+answer2.ipynb
