@@ -24,7 +24,7 @@ class frozen_lake:
     n_row = 8
     n_col = 8
 
-    def __init__(self, eps=.2, seed=1234):
+    def __init__(self, layout=layout, eps=.2, seed=1234):
 
         # get occupancy 
         self.rng = np.random.RandomState(seed)
