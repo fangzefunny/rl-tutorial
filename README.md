@@ -22,3 +22,5 @@ Jieying Zhang,
 3. DQN
 4. Model-based planning
    1. Monte Carlo Tree Cearch (MCTS)
+5. Policy gradient
+   1. REINFORCE 
