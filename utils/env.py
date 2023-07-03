@@ -169,7 +169,7 @@ class frozen_lake:
                 cell = self.state2cell(s)
                 a = pi[s].argmax()
                 next_cell = self.directs[a]*.25
-                plt.arrow(cell[1]+.5, cell[0]+.5, 
+                ax.arrow(cell[1]+.5, cell[0]+.5, 
                         next_cell[1], next_cell[0],
                         width=.01, color='k')
         ax.set_title('Policy')
